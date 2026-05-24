@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://cx03576aa14ea"]
+
+[ext_resource type="Script" uid="uid://vbskheeqt0gb" path="res://scripts/virtual_key.gd" id="1_g4skq"]
+
+[node name="VirtualKey" type="Button" unique_id=1737622740 groups=["Key"]]
+offset_right = 60.0
+offset_bottom = 60.0
+text = "占位"
+script = ExtResource("1_g4skq")
+
+[connection signal="button_down" from="." to="." method="_on_pressed"]
+[connection signal="button_up" from="." to="." method="_on_button_up"]

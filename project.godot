@@ -11,17 +11,23 @@ config_version=5
 [application]
 
 config/name="VKeyboard"
+config/version="0.01"
+run/main_scene="uid://bsu1dugr8s7tu"
 config/features=PackedStringArray("4.6", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="uid://bf7bnqcvmch77"
 
 [display]
 
-window/size/borderless=true
 window/size/always_on_top=true
 window/size/transparent=true
+window/size/no_focus=true
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 window/per_pixel_transparency/allowed=true
+
+[global_group]
+
+Key=""
 
 [physics]
 

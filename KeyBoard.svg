@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- 键盘轮廓 -->
+  <rect x="64" y="128" width="384" height="256" rx="24" fill="none" stroke="#ffffff" stroke-width="16"/>
+  
+  <!-- 按键布局（WASD突出） -->
+  <!-- 第一行 -->
+  <rect x="96" y="176" width="48" height="48" rx="8" fill="#4a9eff"/>
+  <rect x="160" y="176" width="48" height="48" rx="8" fill="#4a9eff"/>
+  <rect x="224" y="176" width="48" height="48" rx="8" fill="#ffffff"/>
+  <rect x="288" y="176" width="48" height="48" rx="8" fill="#ffffff"/>
+  <rect x="352" y="176" width="48" height="48" rx="8" fill="#ffffff"/>
+  
+  <!-- 第二行（突出WASD键） -->
+  <rect x="96" y="240" width="48" height="48" rx="8" fill="#4a9eff" opacity="0.9"/>
+  <rect x="160" y="240" width="48" height="48" rx="8" fill="#4a9eff" opacity="0.9"/>
+  <rect x="224" y="240" width="48" height="48" rx="8" fill="#ffffff" opacity="0.9"/>
+  <rect x="288" y="240" width="48" height="48" rx="8" fill="#ffffff" opacity="0.9"/>
+  <rect x="352" y="240" width="48" height="48" rx="8" fill="#ffffff"/>
+  
+  <!-- 第三行 -->
+  <rect x="128" y="304" width="48" height="48" rx="8" fill="#4a9eff"/>
+  <rect x="192" y="304" width="48" height="48" rx="8" fill="#ffffff"/>
+  <rect x="256" y="304" width="48" height="48" rx="8" fill="#ffffff"/>
+  <rect x="320" y="304" width="48" height="48" rx="8" fill="#ffffff"/>
+  
+  <!-- 空格键（底部） -->
+  <rect x="128" y="368" width="256" height="32" rx="6" fill="#ffffff"/>
+</svg>

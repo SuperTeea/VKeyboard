@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://bsu1dugr8s7tu"]
+
+[ext_resource type="Script" uid="uid://crkv0nrsnmy18" path="res://scripts/main.gd" id="1_elqb8"]
+[ext_resource type="PackedScene" uid="uid://cx03576aa14ea" path="res://scenes/VirtualKey.tscn" id="2_rvslj"]
+
+[node name="Main" type="Control" unique_id=1974695774]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_elqb8")
+
+[node name="Arrows" type="Control" parent="." unique_id=2046024697]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -218.0
+offset_top = -147.0
+grow_horizontal = 0
+grow_vertical = 0
+
+[node name="UP" parent="Arrows" unique_id=1737622740 instance=ExtResource("2_rvslj")]
+layout_mode = 0
+offset_left = 75.0
+offset_top = 6.0
+offset_right = 135.0
+offset_bottom = 66.0
+text = "↑"
+key_code = 4194323
+
+[node name="LEFT" parent="Arrows" unique_id=2100405352 instance=ExtResource("2_rvslj")]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 75.0
+offset_right = 66.0
+offset_bottom = 135.0
+text = "←"
+key_code = 4194321
+
+[node name="DOWN" parent="Arrows" unique_id=516242173 instance=ExtResource("2_rvslj")]
+layout_mode = 0
+offset_left = 75.0
+offset_top = 75.0
+offset_right = 135.0
+offset_bottom = 135.0
+text = "↓"
+key_code = 4194324
+
+[node name="RIGHT" parent="Arrows" unique_id=934299538 instance=ExtResource("2_rvslj")]
+layout_mode = 0
+offset_left = 144.0
+offset_top = 75.0
+offset_right = 204.0
+offset_bottom = 135.0
+text = "→"
+key_code = 4194322
