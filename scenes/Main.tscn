@@ -12,6 +12,11 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_elqb8")
 
+[node name="SolidArea" type="Polygon2D" parent="." unique_id=1721727857]
+color = Color(1, 1, 1, 0)
+polygon = PackedVector2Array(4, 931, 287, 958, 302, 1072, 1701, 1072, 1703, 931, 1907, 934, 1914, 1072, 4, 1072)
+uv = PackedVector2Array(-266, -70.5, -94, -72.5, -96, 7.5, 189, 7.5, 189, -77.5, 340, -76.5, 338, 16.5, -268, 13.5)
+
 [node name="Arrows" type="Control" parent="." unique_id=2046024697]
 layout_mode = 1
 anchors_preset = 3
@@ -59,3 +64,57 @@ offset_right = 204.0
 offset_bottom = 135.0
 text = "→"
 key_code = 39
+
+[node name="Keys" type="Control" parent="." unique_id=303587332]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -156.0
+offset_right = 467.0
+grow_vertical = 0
+
+[node name="Z" parent="Keys" unique_id=1795957970 instance=ExtResource("2_rvslj")]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 86.0
+offset_right = 67.0
+offset_bottom = 146.0
+text = "Z"
+key_code = 90
+
+[node name="X" parent="Keys" unique_id=938421295 instance=ExtResource("2_rvslj")]
+layout_mode = 0
+offset_left = 82.0
+offset_top = 86.0
+offset_right = 142.0
+offset_bottom = 146.0
+text = "X"
+key_code = 88
+
+[node name="C" parent="Keys" unique_id=340466524 instance=ExtResource("2_rvslj")]
+layout_mode = 0
+offset_left = 158.0
+offset_top = 86.0
+offset_right = 218.0
+offset_bottom = 146.0
+text = "C"
+key_code = 67
+
+[node name="V" parent="Keys" unique_id=108130387 instance=ExtResource("2_rvslj")]
+layout_mode = 0
+offset_left = 232.0
+offset_top = 86.0
+offset_right = 292.0
+offset_bottom = 146.0
+text = "V"
+key_code = 86
+
+[node name="CTRL" parent="Keys" unique_id=1383874513 instance=ExtResource("2_rvslj")]
+layout_mode = 0
+offset_left = 7.0
+offset_top = 14.0
+offset_right = 67.0
+offset_bottom = 74.0
+text = "CTRL"
+key_code = 17
