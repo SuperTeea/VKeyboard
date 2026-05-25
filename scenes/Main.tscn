@@ -31,7 +31,7 @@ offset_top = 6.0
 offset_right = 135.0
 offset_bottom = 66.0
 text = "↑"
-key_code = 4194323
+key_code = 38
 
 [node name="LEFT" parent="Arrows" unique_id=2100405352 instance=ExtResource("2_rvslj")]
 layout_mode = 0
@@ -40,7 +40,7 @@ offset_top = 75.0
 offset_right = 66.0
 offset_bottom = 135.0
 text = "←"
-key_code = 4194321
+key_code = 37
 
 [node name="DOWN" parent="Arrows" unique_id=516242173 instance=ExtResource("2_rvslj")]
 layout_mode = 0
@@ -49,7 +49,7 @@ offset_top = 75.0
 offset_right = 135.0
 offset_bottom = 135.0
 text = "↓"
-key_code = 4194324
+key_code = 40
 
 [node name="RIGHT" parent="Arrows" unique_id=934299538 instance=ExtResource("2_rvslj")]
 layout_mode = 0
@@ -58,4 +58,4 @@ offset_top = 75.0
 offset_right = 204.0
 offset_bottom = 135.0
 text = "→"
-key_code = 4194322
+key_code = 39

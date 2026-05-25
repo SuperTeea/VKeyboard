@@ -4,7 +4,6 @@ func _ready() -> void:
 	# 获取所有按键节点的矩形并计算鼠标穿透区域
 	var key_rects: Array[Rect2] = []
 	var key_nodes = get_tree().get_nodes_in_group("Key")
-	
 	for node in key_nodes:
 		if node is Control:
 			key_rects.append(node.get_global_rect())

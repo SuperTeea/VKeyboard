@@ -16,6 +16,10 @@ run/main_scene="uid://bsu1dugr8s7tu"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="uid://bf7bnqcvmch77"
 
+[autoload]
+
+Kcall="*uid://dcplfwos2vyxt"
+
 [display]
 
 window/size/always_on_top=true
